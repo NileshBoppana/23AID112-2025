@@ -1,4 +1,4 @@
-##5 Questions on Queue
+## 5 Questions on Queue
 
 Q1. Ticket Counter System
 
@@ -53,7 +53,7 @@ b) A song starts playing
 c) A song finishes playing
 
 
-##5 Questions on Stack
+## 5 Questions on Stack
 
 1. Browser Back Button
 
