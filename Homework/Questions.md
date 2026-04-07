@@ -1,315 +1,111 @@
-Section A – Stack
+*5 Questions on Queue*
+
+Q1. Ticket Counter System
+
+At a railway station, passengers stand in a line to buy tickets. New passengers join at the end, and tickets are issued from the front.
+
+👉 Question:
+Which data structure is being used here?
+What operations are performed when:
+a) A passenger joins the line
+b) A passenger gets a ticket
 
 ⸻
 
-Q1. Which data structure follows LIFO (Last In First Out)?
+Q2. Printer Spooler
 
-A) Queue
-B) Stack
-C) Linked List
-D) Tree
+In a computer lab, multiple students send print requests. The printer processes them in the order they are received.
 
-Answer: B
-
-⸻
-
-Q2. Which operation is used to insert an element into a stack?
-
-A) Enqueue
-B) Push
-C) Insert
-D) Add
-
-Answer: B
+👉 Question:
+Why is a queue suitable for managing print jobs?
+What will happen if a stack is used instead?
 
 ⸻
 
-Q3. Which operation removes the top element from a stack?
+Q3. CPU Task Scheduling
 
-A) Pop
-B) Delete
-C) Remove
-D) Dequeue
+An operating system assigns CPU time to processes using a First Come First Serve (FCFS) scheduling algorithm.
 
-Answer: A
-
-⸻
-
-Q4. What is the time complexity of push and pop operations in a stack?
-
-A) O(n)
-B) O(log n)
-C) O(1)
-D) O(n log n)
-
-Answer: C
+👉 Question:
+Which type of queue is used here?
+How does the queue ensure fairness among processes?
 
 ⸻
 
-Q5. Which application uses stack?
+Q4. Call Center Handling
 
-A) CPU Scheduling
-B) Recursion
-C) Printing Queue
-D) Round Robin
+A customer care center receives calls. Calls are answered in the order they arrive. If the queue is full, new calls are rejected.
 
-Answer: B
-
-⸻
-
-Q6. Which of the following problems is solved using a stack?
-
-A) Breadth First Search
-B) Depth First Search
-C) Shortest Path
-D) Sorting
-
-Answer: B
+👉 Question:
+What type of queue is this (linear, circular, or priority)?
+What condition causes call rejection?
 
 ⸻
 
-Q7. Overflow condition in stack occurs when:
+Q5. Music Playlist Buffer
 
-A) Stack is empty
-B) Stack is full
-C) Stack has one element
-D) Stack is sorted
+A music app loads songs into a buffer before playing. Songs are played in order, and once a song is played, it is removed from memory.
 
-Answer: B
+👉 Question:
+Identify the queue operations involved when:
+a) A song is added to the playlist
+b) A song starts playing
+c) A song finishes playing
 
-⸻
 
-Q8. Underflow condition in stack occurs when:
+*5 Questions on Stack*
 
-A) Stack is full
-B) Stack is empty
-C) Stack has maximum elements
-D) Stack is unsorted
+1. Browser Back Button
 
-Answer: B
+When you browse websites, clicking the “Back” button takes you to the last visited page.
 
-⸻
-
-Section B – Queue
-
-⸻
-
-Q9. Which data structure follows FIFO (First In First Out)?
-
-A) Stack
-B) Queue
-C) Tree
-D) Graph
-
-Answer: B
+👉 Question:
+Which data structure is used here?
+Explain what happens internally when:
+a) You visit a new page
+b) You click the back button
 
 ⸻
 
-Q10. Which operation inserts an element into a queue?
+Q2. Undo Feature in Text Editor
 
-A) Push
-B) Pop
-C) Enqueue
-D) Insert
+In a text editor, every action (typing, deleting, formatting) can be undone step by step.
 
-Answer: C
-
-⸻
-
-Q11. Which operation removes an element from a queue?
-
-A) Pop
-B) Dequeue
-C) Delete
-D) Remove
-
-Answer: B
+👉 Question:
+Why is a stack suitable for implementing the undo feature?
+What happens when multiple undo operations are performed?
 
 ⸻
 
-Q12. Time complexity of enqueue and dequeue operations:
+Q3. Expression Evaluation
 
-A) O(n)
-B) O(log n)
-C) O(1)
-D) O(n log n)
+A calculator evaluates expressions like:
+(5 + 3) * 2
 
-Answer: C
-
-⸻
-
-Q13. Which type of queue is used in Round Robin scheduling?
-
-A) Priority Queue
-B) Circular Queue
-C) Deque
-D) Linear Queue
-
-Answer: B
+👉 Question:
+How is a stack used to evaluate expressions with parentheses?
+Why is it important for handling operator precedence?
 
 ⸻
 
-Q14. Which of the following uses a queue?
+Q4. Function Call Management
 
-A) Recursion
-B) Depth First Search
-C) Breadth First Search
-D) Stack Sorting
+When a program executes functions, each function call is stored until it finishes execution.
 
-Answer: C
-
-⸻
-
-Q15. What is a deque?
-
-A) Stack implementation
-B) Queue with insertion/deletion at both ends
-C) Circular array
-D) Tree structure
-
-Answer: B
+👉 Question:
+What role does a stack play in function calls?
+What happens in the stack when:
+a) A function is called
+b) A function returns
 
 ⸻
 
-Section C – Scenario-Based Questions (Stacks & Queues)
+Q5. Plate Stacking Problem
 
-⸻
+In a cafeteria, plates are stacked one over another. The last plate placed is the first one to be removed.
 
-Question 16: Function Call Management (Stack)
-
-A program executes multiple nested function calls.
-
-Tasks:
-	1.	Why is a stack used to manage function calls?
-	2.	Explain push and pop operations in this context.
-	3.	What happens during recursive calls?
-	4.	What is the time complexity of each function call operation?
-	5.	What problem occurs if stack memory is exceeded?
-
-⸻
-
-Question 17: Expression Evaluation System
-
-You are designing a system to evaluate mathematical expressions like:
-
-(3 + 5) * (2 - 1)
-
-Tasks:
-	1.	Which data structure is best suited? Why?
-	2.	Convert infix expression to postfix.
-	3.	Explain how postfix evaluation works.
-	4.	What is the time complexity of evaluation?
-	5.	Why are stacks preferred over arrays here?
-
-⸻
-
-Question 18: Printer Queue System
-
-A printer processes print jobs in order of arrival.
-
-Tasks:
-	1.	Which data structure is appropriate? Why?
-	2.	Explain enqueue and dequeue operations.
-	3.	What happens when multiple users send jobs simultaneously?
-	4.	What is the time complexity of each operation?
-	5.	How would priority printing be handled?
-
-⸻
-
-Question 19: Task Scheduling System
-
-An operating system schedules tasks using a queue.
-
-Tasks:
-	1.	Why is a queue suitable for scheduling?
-	2.	Compare linear queue vs circular queue.
-	3.	What problem does circular queue solve?
-	4.	What is the complexity of adding/removing tasks?
-	5.	What happens if queue becomes full?
-
-⸻
-
-Question 20: Browser Back Button (Stack Application)
-
-A browser keeps track of visited pages.
-
-Tasks:
-	1.	Which data structure is used for the back button?
-	2.	How does navigation work using push and pop?
-	3.	What is the time complexity of moving back?
-	4.	How would you implement forward navigation?
-	5.	Compare stack vs doubly linked list for this use case.
-
-⸻
-
-Question 21: Real-Time Data Stream Buffer (Queue)
-
-A system receives continuous sensor data.
-
-Tasks:
-	1.	Why is a queue appropriate for buffering data?
-	2.	What happens if data arrives faster than it is processed?
-	3.	Compare array-based queue vs linked list queue.
-	4.	What is the time complexity of operations?
-	5.	How can overflow be handled?
-
-⸻
-
-Question 22: Balanced Parentheses Checker (Stack)
-
-You need to check if an expression has balanced parentheses.
-
-Example:
-
-{[()]}
-
-Tasks:
-	1.	Which data structure is used? Why?
-	2.	Write logic for checking balance.
-	3.	What is the time complexity?
-	4.	What happens for unbalanced input?
-	5.	Can this be solved without a stack?
-
-⸻
-
-Question 23: Call Center Queue Management
-
-Customers call a service center and wait in line.
-
-Tasks:
-	1.	Which data structure models this system?
-	2.	How are calls handled in order?
-	3.	What is the time complexity of handling calls?
-	4.	How would priority customers be handled?
-	5.	Compare queue vs priority queue.
-
-⸻
-
-Question 24: Undo Operation with Stack Overflow
-
-A text editor stores actions in a stack.
-
-Tasks:
-	1.	What happens when stack capacity is exceeded?
-	2.	How can this problem be handled?
-	3.	Compare fixed-size stack vs dynamic stack.
-	4.	What is amortized complexity of resizing?
-	5.	What trade-offs exist?
-
-⸻
-
-Question 25: Multi-Level Queue Scheduling
-
-An OS uses multiple queues:
-	•	High priority
-	•	Medium priority
-	•	Low priority
-
-Tasks:
-	1.	How are queues used here?
-	2.	Compare with single queue scheduling.
-	3.	What is the complexity of selecting next process?
-	4.	How does priority affect starvation?
-	5.	Suggest improvements.
-
-⸻
+👉 Question:
+Identify the principle used here.
+What operations correspond to:
+a) Adding a plate
+b) Removing a plate
