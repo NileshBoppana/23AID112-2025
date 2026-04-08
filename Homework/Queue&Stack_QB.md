@@ -55,7 +55,7 @@ c) A song finishes playing
 
 ## 5 Questions on Stack
 
-1. Browser Back Button
+Q1. Browser Back Button
 
 When you browse websites, clicking the “Back” button takes you to the last visited page.
 
