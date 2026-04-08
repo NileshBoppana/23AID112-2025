@@ -90,7 +90,7 @@ return stack top
 ⸻
 
 ## Example Evaluation
-'''
+```
 Expression:
 
 (3 + 5) * 2
@@ -99,7 +99,7 @@ Steps:
 
 3 + 5 = 8
 8 * 2 = 16
-'''
+```
 
 ⸻
 
