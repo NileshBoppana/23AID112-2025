@@ -2,7 +2,6 @@
 ### Expression Evaluation Using Trees
 
 ## Introduction
-
 Expression Trees are binary trees used to represent mathematical expressions.
 	•	Leaves → Operands (numbers/variables)
 	•	Internal nodes → Operators (+, -, *, /)
@@ -12,18 +11,17 @@ Expression Trees are binary trees used to represent mathematical expressions.
 ## Why Use Expression Trees?
 	•	Easy evaluation of expressions
 	•	Supports different notations:
-	•	Infix
-	•	Prefix
-	•	Postfix
+        •	Infix
+        •	Prefix
+        •	Postfix
 	•	Useful in:
-	•	Compilers
-	•	Calculators
-	•	Parsing systems
+        •	Compilers
+        •	Calculators
+        •	Parsing systems
 
 ⸻
 
 ## Structure of Expression Tree
-
 Example Expression:
 
 (3 + 5) * 2
@@ -40,17 +38,16 @@ Tree Representation:
 ⸻
 
 ## Types of Traversals
-
-Traversal	Output Form
-Inorder	Infix
-Preorder	Prefix
-Postorder	Postfix
+|Traversal	|Output Form|
+| --------- | --------- |
+|Inorder	|Infix.     |
+|Preorder	|Prefix     |
+|Postorder	|Postfix    |
 
 
 ⸻
 
 ## Building Expression Tree (From Postfix)
-
 Example:
 
 Postfix: 3 5 + 2 *
@@ -85,7 +82,6 @@ return stack top
 ⸻
 
 ### Expression Evaluation
-
 Rule:
 	•	Evaluate Left subtree
 	•	Evaluate Right subtree
@@ -94,7 +90,6 @@ Rule:
 ⸻
 
 ## Example Evaluation
-
 Expression:
 
 (3 + 5) * 2
@@ -152,7 +147,6 @@ def evaluate(root):
 ⸻
 
 ## Conclusion
-
 Expression trees provide an efficient and structured way to:
 	•	Represent expressions
 	•	Convert between notations
