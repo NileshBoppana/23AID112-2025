@@ -19,3 +19,23 @@
 | Example Use | Binary Search Tree (BST) | Database indexing (like MySQL, Oracle) |
 | Structure Type | Simple tree | Multi-level indexed structure |
 | Performance on Large Data | Slower | Faster and efficient |
+
+
+# Difference Between Stack and Queue
+
+| Feature | Stack | Queue |
+|---|---|---|
+| Full Form / Rule | LIFO (Last In, First Out) | FIFO (First In, First Out) |
+| Meaning | The last inserted element is removed first | The first inserted element is removed first |
+| Insertion Operation | Push | Enqueue |
+| Deletion Operation | Pop | Dequeue |
+| Access Operation | Peek / Top | Front / Peek |
+| End Used for Insertion | One end called **top** | Rear end |
+| End Used for Deletion | Same end (**top**) | Front end |
+| Working Style | Insert and delete from the same side | Insert at rear and delete from front |
+| Example Input | 10, 20, 30 | 10, 20, 30 |
+| First Element Removed | 30 | 10 |
+| Real-Life Example | Pile of plates | People standing in a line |
+| Order Followed | Reverse order of insertion | Same order of insertion |
+| Main Use | Function calls, undo operation, expression evaluation | Scheduling, buffering, printer queue |
+| Structure Type | Linear data structure | Linear data structure |
